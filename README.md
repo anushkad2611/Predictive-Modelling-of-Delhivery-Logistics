@@ -61,7 +61,7 @@ The dataset comprises **14817 unique trips** and **144867 total rows**. It inclu
 
 ## ML Strategy
 
-### 🧮 Machine Learning
+### Machine Learning
 
 | Aspect                   | Description                                         |
 | ------------------------ | --------------------------------------------------- |
