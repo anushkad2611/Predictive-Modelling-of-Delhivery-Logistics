@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This repository contains a Business Intelligence and Predictive Analytics project focused on enhancing the **logistics efficiency** of **Delhivery**, a leading supply chain company in India. The goal is to analyze delivery data, clean and preprocess it, and build an interactive dashboard and predictive model that provides insights into:
+This repository contains a Predictive Analytics project focused on enhancing the **logistics efficiency** of **Delhivery**, a leading supply chain company in India. The goal is to analyze delivery data, clean and preprocess it, and build an interactive dashboard and predictive model that provides insights into:
 
 * Trip efficiency
 * Route optimization
