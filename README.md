@@ -1,8 +1,6 @@
-# 📈 Predictive Modelling of Delhivery Logistics
+# Predictive Modelling of Delhivery Logistics
 
-![cover](https://i.postimg.cc/mkKCL8Cf/cover-image.webp)
-
-## 📅 Project Overview
+## Project Overview
 
 This repository contains a Business Intelligence and Predictive Analytics project focused on enhancing the **logistics efficiency** of **Delhivery**, a leading supply chain company in India. The goal is to analyze delivery data, clean and preprocess it, and build an interactive dashboard and predictive model that provides insights into:
 
@@ -11,9 +9,7 @@ This repository contains a Business Intelligence and Predictive Analytics projec
 * Transportation types
 * Overall delivery performance
 
----
-
-## 📊 Objectives
+## Objectives
 
 1. **Data Cleaning and Preprocessing**: Handle missing values, convert types, and extract time-based features.
 2. **Trip Efficiency Analysis**: Study patterns in trip durations and delays.
@@ -21,17 +17,13 @@ This repository contains a Business Intelligence and Predictive Analytics projec
 4. **Delivery Performance Metrics**: Track key performance indicators (KPIs).
 5. **Forecasting Support**: Enable predictive models for delivery time estimation.
 
----
-
-## 📚 Problem Statement
+## Problem Statement
 
 Improving delivery route planning and optimizing delivery schedules while ensuring timely and reliable service.
 
 Build predictive models to estimate delivery times for different routes and time slots. Accurate delivery time estimation enhances customer satisfaction and enables Delhivery to provide reliable service commitments.
 
----
-
-## 📊 Dataset Description
+## Dataset Description
 
 The dataset comprises **14817 unique trips** and **144867 total rows**. It includes:
 
@@ -43,7 +35,7 @@ The dataset comprises **14817 unique trips** and **144867 total rows**. It inclu
 * **Target column**: `actual_time` (in minutes)
 * **Format**: CSV
 
-### 🔄 Features Table
+### Features Table
 
 | Feature                                      | Description                                   |
 | -------------------------------------------- | --------------------------------------------- |
@@ -67,7 +59,7 @@ The dataset comprises **14817 unique trips** and **144867 total rows**. It inclu
 
 ---
 
-## 🧰 ML and BI Strategy
+## ML Strategy
 
 ### 🧮 Machine Learning
 
@@ -81,29 +73,14 @@ The dataset comprises **14817 unique trips** and **144867 total rows**. It inclu
 | **Categorical Encoding** | Required for route\_type, source/destination        |
 | **Time Features**        | Peak hour, weekday trends, delivery duration        |
 
-### 📊 Business Intelligence KPIs
-
-| KPI               | Description                         |
-| ----------------- | ----------------------------------- |
-| Avg Delivery Time | Mean delivery duration              |
-| Trip Efficiency   | Ratio of OSRM vs Actual time        |
-| Delay Patterns    | By route, time of day, location     |
-| Mode Performance  | FTL vs Carting metrics              |
-| Route Volume      | Number of trips per route           |
-| Delay Trends      | Time-based or location-based delays |
-
----
-
-## 🔧 Tools and Technologies
+## Tools and Technologies
 
 * **Programming**: Python, Jupyter Notebooks
 * **Libraries**: Pandas, NumPy, Scikit-learn, Seaborn, Matplotlib
 * **Dashboard**: Power BI / Tableau
 * **Data Source**: CSV (from internal Delhivery systems or simulation)
 
----
-
-## 🔐 MetaData Summary
+## MetaData Summary
 
 | Field             | Description                                          |
 | ----------------- | ---------------------------------------------------- |
@@ -119,4 +96,3 @@ The dataset comprises **14817 unique trips** and **144867 total rows**. It inclu
 | **Contributors**  | \Will added shortly                             |
 | **License**       | MIT / Custom                                         |
 
----
